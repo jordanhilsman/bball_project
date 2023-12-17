@@ -12,7 +12,7 @@ def factorize(number: int) -> list:
         i += 1
     return out
 
-## Chain Rule
+## Chain Rule for Polynomials
 
 def chain(expression: str) -> str:
     new_exp = []
@@ -51,3 +51,5 @@ def chain(expression: str) -> str:
     new_exp = new_exp.replace('x^1 ', 'x ')
 
     return new_exp 
+
+
