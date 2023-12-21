@@ -54,3 +54,4 @@ def chain(expression: str) -> str:
     new_exp = new_exp.replace("x^1 ", "x ")
 
     return new_exp
+
